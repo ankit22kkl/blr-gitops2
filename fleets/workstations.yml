@@ -74,6 +74,10 @@ controls:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
 
+
+  macos_updates:
+     deadline: "2026-07-30"
+     minimum_version: "26.4"
   ###########################################################
   # Managed disk encryption
   #
@@ -96,10 +100,9 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#windows-updates
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
-  controls:
-    macos_updates:
-      deadline: "2030-04-01"
-      minimum_version: "26.0"
+  # macos_updates:
+  #   deadline: "2030-04-01"
+  #   minimum_version: "26.0"
   #   update_new_hosts: true
   # windows_updates:
   #   deadline_days: 7

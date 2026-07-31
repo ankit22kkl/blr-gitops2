@@ -108,3 +108,6 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
+  fleet_maintained_apps:
+    - slug: 4k-stogram/darwin
+    self_service: true

@@ -12,9 +12,14 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+  webhook_settings:
+      activities_webhook:
+        enable_activities_webhook: true
+        destination_url: https://webhook.site/a01f4cc9-4013-450c-b659-1f398f9d192d
   fleet_desktop:
     transparency_url: https//catoftheday.com
   org_info:
+     org_name: Ankit GitOps 
     ###########################################################
     # The name of your organization is displayed to end users
     # during the setup experience for new hardware, and to admins
@@ -23,7 +28,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: Ankit
+  
 
   server_settings:
     ###########################################################

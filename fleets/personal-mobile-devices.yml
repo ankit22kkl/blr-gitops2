@@ -110,4 +110,4 @@ software:
     #   setup_experience: true
   fleet_maintained_apps:
     - slug: 4k-stogram/darwin
-    self_service: true
+      self_service: true

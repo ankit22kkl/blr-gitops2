@@ -1,7 +1,6 @@
 - name: Department - Engineering
   description: All Engineering folks
-  label_membership_type hosts_viable
+  label_membership_type: hosts_viable
   criteria:
     vital: end_user_idp_department
     value: Engineering
-    
